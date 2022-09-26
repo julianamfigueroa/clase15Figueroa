@@ -178,7 +178,8 @@ function fn_btn_newplaylist(){
                             fontSize: "0.8em", fontFamily: "Arial", background:"#74c69d", color:"black"} 
                     }).showToast();
 
-                    fn_get_playlist();}
+                    fn_get_playlist();
+                    fn_btn_newplaylist();}
                 else{ //alert("Playlist Existente"); 
                     Toastify({ // JF: me pareció importante darle un aviso de que la Playlist ya existe y tiene que cambiar el nombre
                         text: "Ya existe esa Playlist", gravity:"bottom", position:"center", duration: 2500,
